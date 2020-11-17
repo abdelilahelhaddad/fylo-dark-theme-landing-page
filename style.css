@@ -521,4 +521,233 @@ footer .container .footer-infos .social a:hover {
 footer .container .footer-infos .social a:hover i {
   border-color: #65e2d9;
 }
+
+@media (max-width: 375px) {
+  .container {
+    width: 375px;
+    padding: 0 12px;
+  }
+  #header .container {
+    padding-bottom: 4rem;
+  }
+  #header .container .navbar {
+    margin: 2rem 0;
+  }
+  #header .container .navbar .logo img {
+    width: 55%;
+  }
+  #header .container .navbar .list {
+    margin-right: .5rem;
+  }
+  #header .container .navbar .list li a {
+    margin-right: 1rem;
+    font-size: 12px;
+  }
+  #header .container .main {
+    text-align: center;
+  }
+  #header .container .main img {
+    width: 90%;
+  }
+  #header .container .main h1 {
+    width: 95%;
+    font-size: 24px;
+    line-height: 2.2rem;
+  }
+  #header .container .main p {
+    width: 85%;
+  }
+  #header .curvy {
+    margin-top: -25rem;
+  }
+  #header .svg-desktop {
+    display: none;
+  }
+  #header .svg-mobile {
+    display: block;
+  }
+  #benefit {
+    padding-top: 19rem;
+  }
+  #benefit .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    gap: 6rem;
+  }
+  #benefit .container .access, #benefit .container .security, #benefit .container .collaboration, #benefit .container .file {
+    width: 80%;
+  }
+  #stay-productive .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 7rem 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #stay-productive .container .illustration {
+    text-align: center;
+  }
+  #stay-productive .container .illustration img {
+    width: 80%;
+  }
+  #stay-productive .container .content h1 {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+  }
+  #stay-productive .container .content p {
+    margin: 1rem auto;
+    width: 80%;
+  }
+  #stay-productive .container .content a {
+    margin-left: 2.4rem;
+  }
+  #testimonials .container {
+    padding: 0 1.5rem 8rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #testimonials .container .quote {
+    top: .4rem;
+    left: .3rem;
+  }
+  #testimonials .container .quote img {
+    width: 7%;
+  }
+  #testimonials .container .testimonials {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 2rem;
+  }
+  #testimonials .container .testimonials .testimonial {
+    padding: 30px 18px 25px;
+    font-size: 13px;
+  }
+  #CTA {
+    padding-bottom: 5rem;
+  }
+  #CTA .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #CTA .container .free-access {
+    margin-bottom: -15rem;
+    width: 100%;
+    padding: 30px 20px 25px;
+    text-align: center;
+    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+  }
+  #CTA .container .free-access .cta-content h1 {
+    font-size: 20px;
+  }
+  #CTA .container .free-access .cta-content p {
+    padding: 0 15px;
+  }
+  #CTA .container .free-access .cta-form form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding: 0 5px 8px;
+    gap: 0.2rem;
+  }
+  #CTA .container .free-access .cta-form form input {
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  #CTA .container .free-access .cta-form form button {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  #CTA .container .free-access .cta-form form #error {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-left: 0rem;
+  }
+  footer {
+    padding-top: 5rem;
+  }
+  footer .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: left;
+  }
+  footer .container .footer-logo {
+    margin-right: 7rem;
+  }
+  footer .container .footer-infos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 0rem;
+    text-align: left;
+  }
+  footer .container .footer-infos .address {
+    width: 80%;
+  }
+  footer .container .footer-infos .address p {
+    padding-left: 1.2rem;
+  }
+  footer .container .footer-infos .phone-email {
+    width: 80%;
+    margin-bottom: 4rem;
+  }
+  footer .container .footer-infos .about-us {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+  footer .container .footer-infos .about-us ul li a {
+    line-height: 2.2rem;
+  }
+  footer .container .footer-infos .contact-us {
+    width: 80%;
+    margin-bottom: 4rem;
+  }
+  footer .container .footer-infos .contact-us ul li a {
+    line-height: 2.2rem;
+  }
+  footer .container .footer-infos .social {
+    width: 80%;
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=style.css.map */

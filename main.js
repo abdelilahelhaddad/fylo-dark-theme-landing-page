@@ -12,7 +12,7 @@ function EmailChecker(){
     document.getElementById("error").textContent = "Please enter a valid email";
   }
   else{
-    document.getElementById("error").textContent = "";
+    document.getElementById("error").innerHTML = "&nbsp;";
   }
 }
 

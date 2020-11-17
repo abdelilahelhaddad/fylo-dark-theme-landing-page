@@ -57,6 +57,8 @@ button{
   display: flex;
 }
 
+//Navbar & Hero Section
+
 #header{
   .container{
     flex-direction: column;
@@ -445,4 +447,233 @@ footer{
       }
     }
   }
+}
+
+//Mobile Responsive - 375px
+
+@media (max-width:375px){
+
+.container{
+  width: 375px;
+  padding: 0 12px;
+}
+
+//Navbar & Hero Section
+
+#header{
+  .container{
+    padding-bottom: 4rem;
+    .navbar{
+      margin: 2rem 0;
+      .logo{
+        img{
+          width: 55%;
+        }
+      }
+      .list{
+        margin-right: .5rem;
+        li{
+          a{
+            margin-right: 1rem;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .main{
+      text-align: center;
+      img{
+        width: 90%;
+      }
+      h1{
+        width: 95%;
+        font-size: 24px;
+        line-height: 2.2rem;
+      }
+      p{
+        width: 85%;
+      }
+    }
+  }
+  .curvy{
+    margin-top: -25rem;
+  }
+  .svg-desktop{
+    display: none;
+  }
+  .svg-mobile{
+    display: block;
+  }
+}
+
+// Benefit Section
+
+#benefit{
+  padding-top: 19rem;
+  .container{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 6rem;
+    .access, .security, .collaboration, .file{
+      width: 80%;
+    }
+  }
+}
+
+// Stay Productive
+#stay-productive{
+  .container{
+    flex-direction: column;
+    padding: 7rem 0;
+    justify-content: center;
+    align-items: center;
+    .illustration{
+      text-align: center;
+      img{
+        width: 80%;
+      }
+    }
+    .content{
+      h1{
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+      }
+      p{
+        margin: 1rem auto;
+        width: 80%;
+      }
+      a{
+        margin-left: 2.4rem;
+      }
+      }
+    }
+  }
+
+
+// Testimonials Section
+
+#testimonials{
+  .container{
+    padding: 0 1.5rem 8rem;
+    flex-direction: column;
+    .quote{
+      top: .4rem;
+      left: .3rem;
+      img{
+        width: 7%;
+      }
+    }
+    .testimonials{
+      flex-direction: column;
+      gap: 2rem;
+      .testimonial{
+        padding: 30px 18px 25px;
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+// Call To Action
+
+#CTA{
+  padding-bottom: 5rem;
+  .container{
+    flex-direction: column;
+    .free-access{
+      margin-bottom: -15rem;
+      width: 100%;
+      padding: 30px 20px 25px;
+      text-align: center;
+      box-shadow: 5px 5px 5px rgba($color: #000000, $alpha: .3);
+      border-radius: 10px;
+      .cta-content{
+        h1{
+          font-size: 20px;
+        }
+        p{
+          padding: 0 15px;
+        }
+      }
+      .cta-form{
+        form{
+          flex-direction: column;
+          flex-wrap: nowrap;
+          padding: 0 5px 8px;
+          gap: 0.2rem;
+          input{
+            width: 100%;
+            order: 1;
+          }
+          button{
+            order: 3;
+          }
+          #error{
+            order: 2;
+            margin-left: 0rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Footer
+
+footer{
+  padding-top: 5rem;
+  .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    .footer-logo{
+      margin-right: 7rem;
+    }
+    .footer-infos{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0rem;
+      text-align: left;
+      .address{
+        width: 80%;
+        p{
+          padding-left: 1.2rem;
+        }
+      }
+      .phone-email{
+        width: 80%;
+        margin-bottom: 4rem;
+      }
+      .about-us{
+        width: 80%;
+        margin-bottom: 2rem;
+        ul{
+          li{
+            a{
+              line-height: 2.2rem;
+            }
+          }
+        }
+      }
+      .contact-us{
+        width: 80%;
+        margin-bottom: 4rem;
+        ul{
+          li{
+            a{
+              line-height: 2.2rem;
+            }
+          }
+        }
+      }
+      .social{
+        width: 80%;
+        text-align: center;
+      }
+    }
+  }
+}
 }
